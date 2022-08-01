@@ -1,0 +1,73 @@
+.temp {
+    border-radius: 10px;
+    background-color: #012443; 
+    color: rgb(211, 211, 211); 
+    display: inline-block; 
+    padding: 5px 8px;
+}
+
+body {
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 100vh; 
+    overflow-y: hidden;
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    /* background-color: #012443; */
+    color: white;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 8px;
+}
+
+.footer h6 {
+    font-weight: 200;
+}
+
+.footer span {
+    color: crimson;
+}
+
+.row {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border-radius: 10px;
+    background-color: #012443;
+    border: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.btn:hover {
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: #005eb0;
+    border: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
