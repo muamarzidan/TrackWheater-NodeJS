@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+html, body{
+    height: 100%;
+    background-image: url(img/mendung.jpg);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 900px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
 .temp {
     border-radius: 10px;
     background-color: #012443; 
@@ -39,6 +63,11 @@ body {
     align-items: center;
 }
 
+.form-control {
+    background-color: #ffffff;
+    opacity: 50%;
+}
+
 .btn {
     border-radius: 10px;
     background-color: #012443;
@@ -51,7 +80,7 @@ body {
 .btn:hover {
     transition: 0.5s;
     border-radius: 10px;
-    background-color: #005eb0;
+    background-color: #0157a3;
     border: none;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -73,15 +102,33 @@ body {
 }
 
 img {
-    margin-left: 600px;
+    margin-left: 550px;
     position: relative;
     bottom: 200px;
 }
 
-.container {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    padding: 20px;
+.anima {
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
 }
+
+/* .anima {
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient(to right, #FFF 20%, rgb(166, 254, 255) 40%, rgb(62, 255, 255) 60%, rgb(178, 243, 255) 100%);
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s linear infinite;
+    -webkit-animation: shine 3s linear infinite;
+}
+
+@keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  } */
