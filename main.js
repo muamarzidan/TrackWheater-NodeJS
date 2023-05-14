@@ -1,7 +1,6 @@
+
 const searchButton = document.querySelector('#button-addon2');
 const inputKeyword = document.querySelector('.input-keyword');
-// const backgroundImagerain = document.body.style.backgroundImage = 'url(img/rain.gif)';
-// document.body.style.backgroundImage = 'url(img/mendung.jpg)';
 
 searchButton.addEventListener('click', function() {
     function backgroundImage() {
@@ -64,17 +63,3 @@ searchButton.addEventListener('click', function() {
     inputKeyword.value = null;
 
 });
-let carName = 'Kijang';
-
-function displayCarName() {
-  let carName = 'Honda';
-
-  return 'Mobil ini bermerk ' + carName;
-}
-
-console.log(displayCarName());
-
-// inputKey.addEventListener('click', function() {
-
-
-// })
